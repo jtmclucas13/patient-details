@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component PatientList renders component 1`] = `
+<div>
+  <h2>
+    PatientList
+  </h2>
+  <DataTable
+    columns={
+      Array [
+        Object {
+          "accessor": [Function],
+          "displayName": "Name",
+          "key": "name",
+        },
+        Object {
+          "accessor": [Function],
+          "displayName": "MRN",
+          "key": "mrn",
+        },
+        Object {
+          "accessor": [Function],
+          "displayName": "Date of Birth",
+          "key": "dob",
+        },
+        Object {
+          "accessor": [Function],
+          "displayName": "Demographics",
+          "key": "demo",
+        },
+        Object {
+          "accessor": [Function],
+          "displayName": "Treatment Site",
+          "key": "site",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "dob": "03/05/1980",
+          "histology": "Ductal carcinoma in situ",
+          "mrn": "12345",
+          "name": Object {
+            "first": "Hailey",
+            "last": "Wilson",
+          },
+          "sex": "Female",
+          "treatment_site": "Breast",
+          "tumor_size_cm": 1.1,
+          "weight": 134.1,
+        },
+        Object {
+          "dob": "07/08/1985",
+          "histology": "Adenocarinoma",
+          "mrn": "23456",
+          "name": Object {
+            "first": "Tyler",
+            "last": "Pierce",
+          },
+          "sex": "Male",
+          "treatment_site": "Lung",
+          "tumor_size_cm": 1.5,
+          "weight": 165.4,
+        },
+        Object {
+          "dob": "11/13/1984",
+          "histology": "Adenocarinoma",
+          "mrn": "34567",
+          "name": Object {
+            "first": "Alexander",
+            "last": "Russell",
+          },
+          "sex": "Male",
+          "treatment_site": "Lung",
+          "tumor_size_cm": 1.6,
+          "weight": 186.4,
+        },
+        Object {
+          "dob": "06/12/1964",
+          "histology": "Invasive ductal carcinoma",
+          "mrn": "45678",
+          "name": Object {
+            "first": "Juanita",
+            "last": "Robertson",
+          },
+          "sex": "Female",
+          "treatment_site": "Breast",
+          "tumor_size_cm": 1.2,
+          "weight": 126.4,
+        },
+        Object {
+          "dob": "01/08/1972",
+          "histology": "Carcinoma",
+          "mrn": "56789",
+          "name": Object {
+            "first": "Harry",
+            "last": "Carroll",
+          },
+          "sex": "Male",
+          "treatment_site": "Prostate",
+          "tumor_size_cm": 0.5,
+          "weight": 212.2,
+        },
+        Object {
+          "dob": "02/22/1969",
+          "histology": "Ductal carcinoma in situ",
+          "mrn": "67890",
+          "name": Object {
+            "first": "Claire",
+            "last": "Rivera",
+          },
+          "sex": "Female",
+          "treatment_site": "Breast",
+          "tumor_size_cm": 0.6,
+          "weight": 145.1,
+        },
+        Object {
+          "dob": "05/01/1978",
+          "histology": "Adenocarinoma",
+          "mrn": "78901",
+          "name": Object {
+            "first": "Willard",
+            "last": "Gonzales",
+          },
+          "sex": "Male",
+          "treatment_site": "Lung",
+          "tumor_size_cm": 1.1,
+          "weight": 177.7,
+        },
+        Object {
+          "dob": "06/06/1986",
+          "histology": "Adenocarinoma",
+          "mrn": "89012",
+          "name": Object {
+            "first": "Raymond",
+            "last": "Kim",
+          },
+          "sex": "Male",
+          "treatment_site": "Lung",
+          "tumor_size_cm": 1.4,
+          "weight": 191.9,
+        },
+      ]
+    }
+  />
+</div>
+`;

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component DataTable renders empty table if no columns and empty data provided 1`] = `
+<table
+  className="data-table"
+>
+  <DataTableHeader
+    columns={Array []}
+  />
+  <tbody
+    className="data-table__body"
+  />
+</table>
+`;
+
+exports[`component DataTable renders table with proper headers and data 1`] = `
+<table
+  className="data-table"
+>
+  <DataTableHeader
+    columns={
+      Array [
+        Object {
+          "accessor": [Function],
+          "displayName": "Column 1",
+          "key": "123",
+        },
+      ]
+    }
+  />
+  <tbody
+    className="data-table__body"
+  >
+    <DataTableRow
+      cells={
+        Array [
+          Object {
+            "colSpan": undefined,
+            "value": "Value",
+          },
+        ]
+      }
+      className={null}
+      key="0"
+    />
+  </tbody>
+</table>
+`;

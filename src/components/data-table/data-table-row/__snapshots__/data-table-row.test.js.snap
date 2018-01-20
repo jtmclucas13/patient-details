@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component DataTableRow renders cells 1`] = `
+<tr
+  className="data-table-row"
+/>
+`;
+
+exports[`component DataTableRow renders empty row if no cells given 1`] = `
+<tr
+  className="data-table-row"
+/>
+`;

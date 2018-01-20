@@ -1,0 +1,13 @@
+:root {
+    --table-header-background: #ccccff;
+    --table-cell-gutter: 10px;
+}
+
+.data-table-header {
+    background-color: var(--table-header-background);
+    font-weight: bold;
+}
+
+.data-table-header__cell {
+    padding: var(--table-cell-gutter);
+}

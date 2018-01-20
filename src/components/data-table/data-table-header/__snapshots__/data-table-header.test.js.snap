@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component DataTableHeader renders empty header if no columns given 1`] = `
+<thead
+  className="data-table-header"
+>
+  <tr />
+</thead>
+`;
+
+exports[`component DataTableHeader renders headers from columns 1`] = `
+<thead
+  className="data-table-header"
+>
+  <tr>
+    <th
+      className="data-table-header__cell"
+      key="123"
+    >
+      Column 1
+    </th>
+  </tr>
+</thead>
+`;
