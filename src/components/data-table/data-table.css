@@ -1,0 +1,13 @@
+:root {
+    --table-odd-row-background: #ddd;
+}
+
+.data-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.data-table__row--odd {
+    background: var(--table-odd-row-background);
+}
