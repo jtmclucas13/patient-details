@@ -1,21 +1,14 @@
-:root {
-    --table-row-background: #fff;
-    --table-row-hover-background: #b9b9e5;
-    --table-row-active-background: #adadd8;
-    --table-cell-gutter: 10px;
-}
-
 .data-table-row {
-    background: var(--table-row-background);
+    background: #fff;
     cursor: pointer;
 }
 
 .data-table-row:hover {
-    background: var(--table-row-hover-background);
+    background: var(--button-hover-color);
 }
 
 .data-table-row:active {
-    background: var(--table-row-active-background);
+    background: var(--button-active-color);
 }
 
 .data-table-row__cell {

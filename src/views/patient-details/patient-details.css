@@ -1,0 +1,48 @@
+.patient-details {
+    padding: 0 var(--base-gutter);
+}
+
+.patient-details__back {
+    background: var(--secondary-color);
+    border: 1px solid black;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.patient-details__back:hover {
+    background: var(--button-hover-color);
+}
+
+.patient-details__back:active {
+    background: var(--button-active-color);
+}
+
+.patient-details__identifying-info {
+    display: flex;
+    margin: var(--base-gutter) 0;
+}
+
+.patient-details__identifying-info span {
+    padding: 0 15px;
+}
+
+.patient-details__identifying-info span:first-child {
+    padding-left: 0;
+}
+
+.patient-details__identifying-info span:last-child {
+    padding-right: 0;
+}
+
+.patient-details__tumor-info {
+    margin: var(--base-gutter) 0;
+}
+
+.patient-details__weight {
+    margin: var(--base-gutter) 0;
+}
+
+.patient-details__weight-plot {
+    margin-left: var(--base-gutter);
+}
