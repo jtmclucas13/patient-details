@@ -42,6 +42,7 @@ exports[`component DataTable renders table with proper headers and data 1`] = `
       }
       className={null}
       key="0"
+      onClick={[Function]}
     />
   </tbody>
 </table>
