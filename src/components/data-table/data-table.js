@@ -5,7 +5,7 @@ import DataTableHeader from './data-table-header/data-table-header';
 import DataTableRow from './data-table-row/data-table-row';
 import './data-table.css';
 
-function DataTable ({ className, columns, data }) {
+function DataTable ({ className, columns, data, onRowClick }) {
     const _className = classNames('data-table', className);
 
     return (
@@ -27,6 +27,7 @@ function DataTable ({ className, columns, data }) {
                                 cells={cells}
                                 className={isOddRow ? 'data-table__row--odd' : null}
                                 key={rowIndex}
+                                onClick={(e) => onRowClick(e, rowIndex)}
                             />
                         );
                     }) :
@@ -45,6 +46,7 @@ DataTable.propTypes = {
         key: PropTypes.string.isRequired,
     })).isRequired,
     data: PropTypes.arrayOf(PropTypes.object),
+    onRowClick: PropTypes.func,
 };
 
 export default DataTable;

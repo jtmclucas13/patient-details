@@ -1,3 +1,12 @@
+:root {
+    --accent-color: #ccccff;
+    --secondary-color: #ddd;
+    --button-hover-color: #b9b9e5;
+    --button-active-color: #adadd8;
+    --table-cell-gutter: 10px;
+    --base-gutter: 25px;
+}
+
 body {
   margin: 0;
   padding: 0;

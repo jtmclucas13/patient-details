@@ -1,0 +1,5 @@
+.app-header {
+    background: var(--accent-color);
+    margin: 0;
+    padding: 20px;
+}

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component PatientDetails renders as expected without whisker plot 1`] = `
+<div
+  className="patient-details"
+>
+  <h2>
+    Patient Details - 
+     
+  </h2>
+  <div
+    className="patient-details__identifying-info"
+  >
+    <span>
+      MRN: 
+    </span>
+    <span>
+      1/1/2018
+    </span>
+    <span>
+      0
+       year old 
+    </span>
+  </div>
+  <div
+    className="patient-details__tumor-info"
+  >
+    cm 
+    , 
+  </div>
+  <div
+    className="patient-details__weight"
+  >
+     lbs
+  </div>
+  <Link
+    replace={false}
+    to="/"
+  >
+    <button
+      className="patient-details__back"
+    >
+      Patient List
+    </button>
+  </Link>
+</div>
+`;
+
+exports[`component PatientDetails renders with whisker plot 1`] = `
+<div
+  className="patient-details"
+>
+  <h2>
+    Patient Details - 
+     
+  </h2>
+  <div
+    className="patient-details__identifying-info"
+  >
+    <span>
+      MRN: 
+    </span>
+    <span>
+      1/1/2018
+    </span>
+    <span>
+      0
+       year old 
+    </span>
+  </div>
+  <div
+    className="patient-details__tumor-info"
+  >
+    cm 
+    , 
+  </div>
+  <div
+    className="patient-details__weight"
+  >
+    123
+     lbs
+    <WhiskerPlot
+      allValues={Array []}
+      className="patient-details__weight-plot"
+      targetValue={123}
+      width={200}
+    />
+  </div>
+  <Link
+    replace={false}
+    to="/"
+  >
+    <button
+      className="patient-details__back"
+    >
+      Patient List
+    </button>
+  </Link>
+</div>
+`;

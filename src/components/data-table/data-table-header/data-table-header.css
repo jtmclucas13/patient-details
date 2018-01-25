@@ -1,10 +1,5 @@
-:root {
-    --table-header-background: #ccccff;
-    --table-cell-gutter: 10px;
-}
-
 .data-table-header {
-    background-color: var(--table-header-background);
+    background-color: var(--accent-color);
     font-weight: bold;
 }
 
